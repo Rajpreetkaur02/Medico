@@ -1,0 +1,100 @@
+body {
+    /* background: rgb(2, 0, 36);
+    background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(30, 54, 59, 1) 0%,
+      rgba(93, 93, 116, 1) 100%
+    ); */
+  }
+  
+  .container {
+    /* display: flex important; */
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    height: 100vh;
+    max-width: 40%;
+    width: 100%;
+    padding-top: 10%;
+    /* margin: auto; */
+    float: right;
+    /* border-left: 1px solid black; */
+    box-shadow: 1px 7px 10px black;
+    
+  }
+  .container > form {
+    justify-content: center;
+    display: flex;
+    height: 70vh;
+    /* width: 100%; */
+    /* border: 1px solid #dfdfdf; */
+    padding: 20px;
+    /* border-radius: 5px; */
+    background: #fff;
+  }
+  pre {
+    width: 70%;
+    color: #fff;
+    font-size: larger;
+  }
+  
+  button {
+    /* background: #0563b4 !important; */
+  }
+  p {
+    color: red;
+  }
+
+  .field{
+    position: relative;
+    width: 30vw;
+    height: 5vh;
+  }
+  .field input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    color: #000;
+    font-size: 1em;
+  }
+
+  .field span{
+    position: absolute;
+    left: 0px;
+    padding: 10px;
+    pointer-events: none;
+    font-size: 1em;
+    transition: top .3s;
+    text-transform: capitalize;
+    transition: 0.5s;
+  }
+
+  .field input:valid ~ span,
+  .field input:focus ~ span{
+    transform: translateX(10px) translateY(-7px);
+    background: white;
+    padding: 0 10px;
+    font-size: 0.65em;
+  }
+
+  .sign_in_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    max-height: 100vh;
+    /*max-width: 10vw; */
+    width: 60%;
+    
+  }
+  .mainContainer {
+    /* display: flex;
+    flex-direction: column; */
+    height: 100vh;
+    width: 100vw;
+  }

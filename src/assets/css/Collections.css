@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+}
+
+.collections{
+    width: 100%;
+    min-height: 100vh;
+    /* padding-top: 20%; */
+}
+
+.offcanvas-header {
+    background-color: black;
+}
+
+.offcanvas-header .btn-close {
+    background-color: white !important;
+}
+
+.TeamHead{
+    font-weight: 700;
+    font-size: 6rem;
+    text-shadow: 1px 9px 5px #000;
+    color: #fff !important;
+}
+
+.SearchBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    gap: 20px;
+    font-size: 1.2rem;
+    width: 25%;
+    height: 90vh;
+    background: rgb(237, 237, 237);
+    padding-top: 10%;
+}
+
+.SearchBarTicket{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    gap: 30vw;
+    flex-wrap: wrap;
+    
+}
+.SearchBarCont2{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 4%;
+}
+
+.SearchBarSearchTicket{
+    outline: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    background: transparent;
+    width: 20vw;
+    color: black;
+}
+
+.SearchBarSearchTicket::placeholder {
+    padding-left: 3px;
+    color: lightgray;
+}
+
+.SearchBarSubmit{
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    background: #75dc45;
+    color: white;
+    width: 8vw;
+}
+.SearchBarOption{
+    text-align: center;
+    color : #fff;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px; 
+    width: 60%;
+    box-shadow: 3px 5px 10px 5px #8B6AC2;
+    /* background: #97C84B; */
+}
+
+.SearchFalse{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*  */
+.SearchFalseIMG{
+    width: 10%;
+}
+.glow {
+    color: #000;
+    /* font-family: 'rocher'; */
+    /* text-shadow: 0 0 1px #fff, 0 0 7px #fff, 0 0 5px #00bce6, 0 0 14px #00bce6, 0 0 5px #00bce6, 0 0 33px #00bce6, 0 0 22px #00bce6 !important;  */
+}
+.SpText{
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 10%;
+}
+
+.SearchBarOption:hover {
+    transition: 0.4s;
+    box-shadow: 3px 5px 10px 2px #8B6AC2;
+}
+
+.SearchBarLeft{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    gap: 15px;
+    height: 100vh;
+    background: black;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and  (max-width: 500px){
+    .TeamHead{
+        font-size: 3rem;
+    }
+}

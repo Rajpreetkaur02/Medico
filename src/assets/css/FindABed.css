@@ -1,0 +1,62 @@
+h2 {
+    text-align: center;
+    padding-top: 20px;
+  }
+  
+  .FindHeroContainer {
+    color: #fff;
+    padding: 10px;
+    background: #0B3D60;
+    /* border-radius: 20px; */
+    justify-content: space-around; 
+    /* display: flex; */
+    height: 80vh;
+    /* align-items: center; */
+    margin-top: 30px; 
+    /* margin-left: 50px;
+    margin-right: 50px; */
+  }
+
+  .findabedleft{
+    margin-left: 600px;
+  }
+
+  .findabedright{
+    margin-right: 600px;
+  }
+  .bookButton{
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #54D269;
+    color: black;
+    border: none;
+    transition:box-shadow 1s;
+    margin-top: 12%;
+    margin-left: 18%;
+}
+
+.carousel_2 {
+  width: 60%;
+  margin-top: -50px;
+}
+
+.findbedtext{
+  /* margin-left: 270px; */
+  width: 80%;
+  font-size: 1.3em;
+  padding-top: 10%;
+  padding-left: 10%;
+  font-family: 'Fira Mono', monospace;
+  /* height: 30%; */
+}
+
+.findabedmain {
+  display: flex;
+}
+
+.findbedpt2 {
+  width: 50%;
+}

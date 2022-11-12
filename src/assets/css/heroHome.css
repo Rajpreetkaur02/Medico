@@ -1,0 +1,63 @@
+.heroContainer{
+    width: 100%;
+    height: 100vh;
+    /* margin: 0 auto; */
+    display: flex;
+    padding-left: 12.5%;
+    align-items: center;
+    
+    /* background-color: #b1def6; */
+    background-image: radial-gradient(110% 125% at 30% -70px, #bdeeff 80%, transparent 75%);
+}
+.heroContainerPart1 , .heroContainerPart2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.heroContainerText{
+    color: black;
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.heroContainerText2 , .heroContainerText3{
+    color: black;
+    font-weight: 600;
+}
+.heroContainerSpan{
+    color: yellow;
+}
+.heroContainerButton{
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 5px;
+    background: #54D269;
+    color: black;
+    border: none;
+    
+    transition:box-shadow 1s;
+}
+#findbutton{
+    padding: 10px;
+    width: 150px;
+    font-size: 1.2em;
+}
+.heroContainerButton:hover{
+    box-shadow: 1px 5px 30px black;
+}
+.heroContainerTextspan{
+    text-decoration: line-through #54D269;
+}
+
+@media screen and (max-width: 900px){
+    .heroContainer{
+          width: 100%;
+          align-items: center;
+          flex-direction: column;
+    }
+    .heroContainerPart1, .heroContainerPart2 {
+          width: 75%;
+    }
+}

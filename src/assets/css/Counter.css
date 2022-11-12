@@ -1,0 +1,47 @@
+@import url("https://use.typekit.net/wjp8wpq.css");
+
+h2 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.CounterHeroContainer {
+  color: #fff;
+  padding: 10px;
+  background: #0B3D60;
+  border-radius: 20px;
+  /* justify-content: space-around; */
+  /* display: flex; */
+  height: 45vh;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.CounterHeroInnerContainer {
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.CounterHeroTextContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.CounterHeroText1 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.CounterHeroText2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+@media (max-width: 425px) {
+  .CounterHeroContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}

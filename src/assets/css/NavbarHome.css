@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+
+::placeholder{
+  color: #fff;
+}
+.offcanvas_navbar{
+  width: 100% !important;
+}
+.navbarGDSCIcon{
+  width: 80px;
+}
+
+.navbarHomeContainer{
+  width: 100%;
+  position: fixed; 
+  height: auto;
+  color: black;
+  font-weight: 600;
+  /* background: white; */
+  background-color: #bdeeff;
+  
+  /* opacity: 0.5; */
+  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+
+  padding: 10px;
+  /* box-shadow:1px 1px 25px 1px rgb(0, 0, 0); */
+  z-index: 1000;
+  
+}
+/* .navbarHomeContainer:hover{
+  color: grey;
+} */
+.navbarReponsive{
+  display: none;
+  position: relative !important;
+}
+.navbarHomeContainer1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.navbarHomeContainer1pt2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.webName {
+  font-size: 2em;
+}
+
+.navbarTigerIconContainer{
+  object-fit: cover;
+}
+.navbarTigerIcon {
+  width: 55px;
+
+}
+.navbarHomeSection2{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+}
+.navbarHomeSection2Span{
+  font-family: 'Almendra SC', serif;
+  font-weight: 600;
+}
+
+.navbarHomeSection2Span a{
+  text-decoration: none;
+  color: white;
+}
+.navbarHomeSection2SearchContainer{
+  height: 40px;
+  display: flex;
+  /* border-bottom: 1px solid rgb(141, 141, 141); */
+  align-items: center;
+  justify-content: center;
+  
+}
+.navbarHomeSection2SearchBar{
+  padding: 5px;
+  outline:none;
+  border: none;
+  background: transparent;
+  color: #fff;
+  width: 30vw;
+}
+
+.navbarHomeSection2part3{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.navbarHomeSection2part3 a{
+  text-decoration: none;
+  color: black;
+  transition: color 0.5s;
+}
+.navbarHomeSection2part3 a:hover{
+color: grey   ;
+}
+.nav-mob-list a{
+  color:#fff ;
+  text-decoration:none;
+}
+.nav-mob-list a{
+  color:#fff ;
+  text-decoration:none;
+}
+.navbarResponsiveFlex{
+  display: flex;
+  height: auto;
+  text-decoration: none !important;
+  color: #fff !important;
+  flex-direction: column;
+  gap: 10px;
+}
+.navbarResponsiveFlex li{
+  color: #fff !important;
+}
+
+/* CSS for Responsive Navbar */
+.navbar{
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0% !important;
+  z-index: 10;
+}
+
+.person_wallet_box{
+  display: flex;
+  gap: 15px;
+}
+
+@media screen and (max-width: 1000px){
+  .navbarHomeContainer{
+    display: none;
+  }
+  .navbarReponsiveButton{
+    display: block !important;
+  }
+  .navbarReponsive{
+    display: block;
+  }
+}
